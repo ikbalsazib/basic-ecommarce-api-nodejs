@@ -1,0 +1,25 @@
+{
+  "name": "basic-e-commarce-api",
+  "version": "1.0.0",
+  "description": "Basic e-commerce API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Softlab IT",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.19",
+    "mongoose-fuzzy-searching": "^2.0.2",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
