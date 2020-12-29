@@ -11,6 +11,7 @@ const adminRoutes = require('./routes/admin');
 const userRoutes = require('./routes/user');
 const productRoutes = require('./routes/product');
 const bazaarRoutes = require('./routes/bazaar');
+const categoryRoutes = require('./routes/category');
 
 
 // Cross Unblocker File..
@@ -33,6 +34,7 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/product', productRoutes);
 app.use('/api/bazaar', bazaarRoutes);
+app.use('/api/category', categoryRoutes);
 
 //Error Handelar..
 app.use(errorHandler.extra);

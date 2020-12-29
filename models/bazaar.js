@@ -30,7 +30,7 @@ const bazaarSchema = new Schema(
         },
         categories: {
             type: [categorySchema],
-            required: true
+            required: false
         }
     },
 );
